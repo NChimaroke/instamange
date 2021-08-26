@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Instamange</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/48ee4eb360.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="logo" src="images/TransLogo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn login">Login</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn join">Join</button>
+          </li>
+        </ul>
+     </div>
+    </nav>
+
+    <div class="products" id="products">
+      <div class="title1">
+        <p>Discover private chefs and bakers near you</p>
+      </div>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+
+      <div class="product">
+        <div class="row product1">
+          <img class="col-lg-3 cook-image" src="images/cook2.png" alt="A Chef">
+          <div class="product-text col-lg-6">
+            <h3 class="product-title">Home of <span class="taste">Delicious</span>!</h3>
+            <p class="product-body">Let our chefs water your taste buds
+              with the expertise in their craft, as you relish every spoonful.</p>
+          </div>
+        </div>
+
+        <div class="row product2">
+          <div class="product-text col-lg-6">
+            <h3 class="product-title">Taste the <span class="taste">Sweetness</span>!</h3>
+            <p class="product-body">Our confectioners have mastered their craft through years of dedicated service
+              to their beloved customers.</p>
+          </div>
+          <img class="col-lg-3 baker-image" src="images/bake.png" alt="A Baker">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="features" id="features">
+      <div class="title2">
+        <p>Just like <span class="IG">Instagram</span> but for <span class="food">food</span> lovers</p>
+      </div>
+
+      <div class="features-list">
+        <div class="feature-row feature1">
+          <img class="location-image col-lg-3" src="images/location.png" alt="Location Pin">
+          <div class="product-text-1 col-lg-6">
+            <h3 class="product-title">Search by location</h3>
+            <p class="product-body">Get found easily, make new customers, and convert them to loyal fans.</p>
+          </div>
+        </div>
+
+        <div class="feature-row feature2">
+        <img class="col-lg-3 share-like-follow-image" src="images/ShareLikeFollow.png" alt="Social">
+          <div class="product-text-2 col-lg-6">
+            <h3 class="product-title">Build your community</h3>
+            <p class="product-body">Your fans can follow your page, like, as well as share your posts.</p>
+          </div>
+        </div>
+
+        <div class="feature-row feature3">
+          <img class="col-lg-3 payment-image" src="images/payment.png" alt="Integrated Payment">
+          <div class="product-text-3 col-lg-6">
+            <h3 class="product-title">Integrated payment</h3>
+            <p class="product-body">Hassle-free payment by customers for smoother transactions.</p>
+          </div>
+        </div>
+
+        <div class="feature-row feature4">
+        <img class="col-lg-3 live-cooking-image" src="images/cooking.png" alt="Live Cooking">
+          <div class="product-text-4 col-lg-6">
+            <h3 class="product-title">Live cooking lessons</h3>
+            <p class="product-body">Share your knowledge by hosting paid cooking/baking lessons.</p>
+          </div>
+        </div>
+
+        <div class="feature-row feature5">
+          <img class="col-lg-3 blog-image" src="images/blog.png" alt="Blogs">
+          <div class="product-text-5 col-lg-6">
+            <h3 class="product-title">Host engaging blogs</h3>
+            <p class="product-body">Write food focused blogs for even more fans engagement.</p>
+          </div>
+        </div>
+
+        <div class="feature-row feature6">
+        <img class="col-lg-3 call-chat-image" src="images/callchat.png" alt="Call & Chat">
+          <div class="product-text-6 col-lg-6">
+            <h3 class="product-title">In-App call & text</h3>
+            <p class="product-body">Easily call or chat with your customers to better understand their needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="food-culture">
+      <h3 class="culture">Food is culture and we need to listen to it.<br>
+      As culture, food needs a decicated medium to be expressed.<br>Hello, Instamange!</h3>
+      <img class="assorted-food"src="images/food-culture.png" alt="Assorted Food">
+      <div class="footer">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+        <p class="footer-text">&copy 2021 <span class="insta">Insta</span><span class="mange">mange</span>.</p>
+      </div>
+    </div>
+
+  </body>
+
+  <style media="screen">
+  .body {
+    width: 75%;
+  }
+
+  .logo {
+    width: 25%;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    background-color: #000;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .login {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D96934;
+    color: white;
+    width: 90px;
+    margin: auto;
+  }
+
+  .join {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D96934;
+    color: white;
+    width: 90px;
+  }
+
+  .nav-item {
+  margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-toggler {
+    margin-right: 40px;
+  }
+
+  .products {
+    background-color: #D96934;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .title1 {
+    padding: 2% 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 0.25rem;
+  }
+
+  .d-flex {
+    padding: 0 30% 2%;
+  }
+
+  .taste {
+    color: #75CC1D;
+  }
+
+  .product1 {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+    color: #fff;
+    margin-bottom: 75px
+  }
+
+  .product2 {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+
+  .product-title, .product-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+  }
+
+  .product-body, .product-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  .cook-image {
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .baker-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .title2 {
+    padding: 0 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 0.25rem;
+  }
+
+  .IG {
+    color: #C13584;
+  }
+
+  .food {
+    color: #75CC1D;
+  }
+
+  .features-list {
+    width: 50%;
+    margin: 100px auto;
+  }
+
+  .location-image, .payment-image, .blog-image {
+    position: absolute;
+    float: left;
+  }
+
+  .share-like-follow-image, .live-cooking-image, .call-chat-image {
+    position: absolute;
+    float: right;
+    left: 50%;
+  }
+
+  .feature1, .feature2, .feature3, .feature6 {
+    margin-bottom: 200px;
+  }
+
+  .feature4 {
+    margin-bottom: 250px;
+  }
+
+  .feature5 {
+    margin-bottom: 100px;
+  }
+
+  .product-text-1 {
+    position: relative;
+    line-height: 2.5;
+    left: 50%;
+    padding-top: 80px;
+  }
+
+  .product-text-2 {
+    position: relative;
+    line-height: 2.5;
+    padding-top: 80px;
+  }
+
+  .product-text-3 {
+      position: relative;
+      line-height: 2.5;
+      left: 50%;
+      padding-top: 65px;
+  }
+
+  .product-text-4 {
+      position: relative;
+      line-height: 2.5;
+      padding-top: 75px;
+  }
+
+  .product-text-5 {
+    position: relative;
+    line-height: 2.5;
+    left: 50%;
+    padding-top: 20px;
+  }
+
+  .product-text-6 {
+    position: relative;
+    line-height: 2.5;
+    padding-top: 175px;
+  }
+
+  .payment-image {
+    padding-right: 50px;
+  }
+
+  .food-culture {
+    background-color: #D96934;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .culture {
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .insta {
+    color: #C13584;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+
+  .mange {
+    color: #75CC1D;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+
+  .assorted-food {
+    width: 75%;
+    height: 25%;
+    margin: auto;
+    margin: 100px;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .fab {
+    padding: 0 10px;
+  }
+
+  .footer-text {
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+  }
+
+  /* iPad and Mobile Modes */
+
+  @media (max-width: 991px) {
+      .logo {
+        width: 40%;
+      }
+
+      .login, .join {
+        margin: 10px 0 10px 0;
+      }
+
+      .nav-item {
+        margin-left: 40px;
+      }
+
+      .d-flex {
+        padding: 0 20% 2%;
+      }
+
+      .active {
+        margin-top: 20px;
+      }
+
+      .cook-image {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .baker-image {
+        width: 75%;
+        margin-bottom: 50px;
+      }
+
+      .row {
+        text-align: center;
+      }
+
+      .product-text-2, .product-text-4, .product-text-6 {
+        padding-top: 25px;
+      }
+
+      .product-text-1, .product-text-3, .product-text-5 {
+        position: relative;
+        left: 0;
+        padding-top: 25px;
+      }
+
+      .location-image, .payment-image, .blog-image, .share-like-follow-image, .live-cooking-image, .call-chat-image {
+        width: 35%;
+        position: static;
+        float: none;
+        left: 0;
+        padding: 0 0;
+      }
+
+      .features-list {
+        width: 50%;
+        text-align: center;
+      }
+
+      .feature1, .feature2, .feature3, .feature4, .feature5, .feature6 {
+        margin-bottom: 100px;
+      }
+    }
+  </style>
+</html>
